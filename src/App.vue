@@ -198,7 +198,7 @@ const playAudio = () => {
             </div>
             <div class="verb-container">
               <div class="verb flex items-center gap-3 mt-5">
-                <p class="font-bold text-lg dark:text-gray-300">veb</p>
+                <p class="font-bold text-lg dark:text-gray-300">verb</p>
                 <div class="h-[1px] bg-gray-300 w-full"></div>
               </div>
               <div class="pl-10 mt-2">
