@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import axios from "axios";
 import { DictAPI } from "./interfaces";
 
@@ -44,6 +44,11 @@ const playAudio = () => {
   });
   audio.play();
 };
+onMounted(() => {
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "dark");
+  }
+});
 </script>
 
 <template>
